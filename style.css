@@ -289,15 +289,12 @@ body{
 	text-align: center;
 }
 .card img{
-	margin: 10px;
-	margin-left: 15px;
 	margin-top: 15px;
 	text-align: center;
 	border: 5px solid rgba(200,200,200,1);
 }
 .card .info{
 	margin: 10px;
-	margin-left: 30px;
 	margin-top: 15px;
 	font-family: sans-serif;
 
