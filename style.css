@@ -265,7 +265,6 @@ body{
 	transition: 0.8s;
 }
 .navitem a:hover{
-	font-size: 25px;
 	background-color: #fff;
 	color: #000;
 
@@ -296,7 +295,7 @@ body{
 }
 .card .info{
 	margin: 10px;
-	margin-top: 15px;
+	margin-top: 100px;
 	font-family: sans-serif;
 	text-align: center;
 
@@ -304,10 +303,18 @@ body{
 .info h1{
 	margin: 10px;
 	font-size: 35px;
+	text-align: center;
 }
 .info h2{
 	margin-top: 5px;
 	margin-bottom: 20px;
+	text-align: center;
+}
+.info table{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
 }
 .info table tr td{
 	padding: 2px;
@@ -329,7 +336,7 @@ body{
 }
 .cardfooter a:hover{
 	color: #000;
-	font-size: 25px;
+	/*font-size: 25px;*/
 }
 .cardfooter a:active{
 	color: #000;
@@ -426,13 +433,14 @@ body{
 	background-color: #fff;
 }
 #contact>.container>.row input, textarea{
+	margin: 20px;
 	font-size: 25px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border: 2px solid #000;
 	border-radius: 02mm;
 	padding: 5px;
-	width: 100%
+	width: 85%;
 
 }
 #contact>.container>.row button{
